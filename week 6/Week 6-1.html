@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Page</title>
+<style>
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image {
+    margin-bottom: 50px;
+  }
+  
+  .image1 {
+    border: 5px solid black;
+  }
+  
+  .image2 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .image3 {
+    float: left; /* or float: right; */
+    clear: both;
+  }
+  
+  .image4 {
+    margin: 50px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="image image1">
+    <img src="image1.png" alt="Image 1">
+  </div>
+  
+  <div class="image image2">
+    <a href="image2.png" target="_blank">
+      <img src="image2.png" alt="Image 2">
+    </a>
+  </div>
+  
+  <div class="image image3">
+    <img src="image3.png" alt="Image 3">
+  </div>
+  
+  <div class="image image4">
+    <img src="image 4.png" alt="Image 4">
+  </div>
+</div>
+
+<p>Text aligned with respect to the images.</p>
+
+</body>
+</html>
